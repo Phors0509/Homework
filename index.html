@@ -122,7 +122,7 @@
                                     <ul class="navbar-nav gap-4">
                                         <li class="nav-item">
                                             <a
-                                                class="nav-link text-white fw-light active"
+                                                class="nav-link  fw-light active"
                                                 aria-current="page"
                                                 href="#"
                                                 >Home</a
@@ -168,9 +168,10 @@
             </div>
         </header>
 
-<section id="hero" >
+<section id="hero">
+    <div class="mb-5">
 
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper ">
 
         <div class="swiper-wrapper">
 
@@ -250,19 +251,21 @@
         </div>
         
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next d-none d-md-none d-lg-block"></div>
+        <div class="swiper-button-prev d-none d-md-none d-lg-block"></div>
+        <div class="swiper-pagination d-none d-md-none d-lg-block"></div>
     </div>
 
+</div>
 
 </section>
+
 <!-- end  -->
 
 
-    <div class="container mb-3">
+    <div class="container mb-5 border-1 border-bottom">
         
-        <div class="row">
+        <div class="row pb-4">
             <div class="col-lg-3 col-md-6 col-sm-12 text-center">
                 <i class="fa-thin fa-truck-bolt icon-me"></i>
                 <h6>Free Shipping</h6>
@@ -288,11 +291,11 @@
                 <p>Free shipping on all order over $99.00</p>
             </div>
         </div>
+
     </div>
 
         <!-- Category -->
-        <div class="container-fluid">
-            <div class="container">
+            <div class="container mb-5">
 
                 <!-- Handing  -->
                 <div class="row">
@@ -349,12 +352,10 @@
                     
                 </div>
             </div>
-        </div>
 
         <!-- Popular Products -->
 
-
-            <div class="container mb-3">
+            <div class="container mb-5">
                 <!-- Handing  -->
                 <div class="row">
                     <div class="d-flex justify-content-between py-3">
@@ -655,12 +656,14 @@
 
         <!-- feature  -->
 
-    <div class="container p-0 mb-3">
+    <div class="container p-0 mb-5">
+
         <div class="row">
 
             <div class="col-lg-4 col-md-4 col-sm-12">
 
                 <div class="feature-card text-center position-relative ">
+
                     <div class="position-relative container-img-feature d-flex justify-content-center align-items-center">
                         <img src="./src/asset/img/3.jpg" class="img-feature rounded-4 w-100" alt="">
                         <div class="position-absolute top-0 text-feature w-100">
@@ -741,8 +744,16 @@
 
     </div>
 
-    <!-- Testimonial -->
-    <div class="container">
+    <!-- Daily Blog -->
+    <div class="container p-0 mb-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-between py-3">
+                    <h1>Daily Blog</h1>
+                    <button class="border-0 text-success bg-white">View All <i class="fa-sharp fa-thin fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
         <div class="row">
 
             <div class="col">
@@ -766,9 +777,13 @@
                   </div>
             </div>
             <div class="col">
+
                 <div class="card">
                     <div class="position-relative overflow-hidden">
-                        <img id="img-card-row" src="https://s3-alpha-sig.figma.com/img/e529/5fa5/7fdd309ff0be529b01577175ad6ef8fb?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ME8hZRT28xze9kFXljg1aFHK9hHS7GVgzGatRHQsB5KeTPgyFHnP0rpm8HV9Pa2RrC6mcA8wFgmZ9J6UqDL1d8X-eXKURl8MRfdVfD6PuymD6pfb3K3BB8XzUkkYd9pk9j1DTvLLq7Es97xFiguT6Hy~xBllA2kwmqs-3NHZd45AoxZO~tfEsiRZrmea7q1NGYKrlK1M3wJbHY5BA8qRawsqbr3Mc3xtHWi5a5aqEbwy4LBH0QzN3AD5I2C2~yC8Bltfng5wPL0yhEqQ4TRUvkfxrGtnUKXeEs-IdnNZkJ-HHTDaCdTcOwX-Ye-Wq2nv0vqiCAnJ8zkMhBVFDiMJLQ__" class="card-img-top img-fluid w-100" alt="..."/>
+                        <div class="card-img">
+
+                            <img id="img-card-row" src="./src/asset/img/4.jpg" class="card-img-top img-fluid w-100" alt="..."/>
+                        </div>
                         <div class="bg-white position-absolute bottom-0 p-3 text-center rounded-2 mb-2 mx-2">
                             <p class="m-0 fw-bold fs-4">18</p>
                             <p class="m-0 fs-6">NOV</p>   
@@ -810,18 +825,61 @@
 
     </div>
 
+    <div class="container-fluid bg-body-secondary">
+        <div class="container">
+                    <div class="d-flex justify-content-between py-3">
+                        <h5 class="py-4 pe-5 border-end">Steps</h5>
+                        <h5 class="py-4 pe-5 border-end">Mango</h5>
+                        <h5 class="py-4 pe-5 border-end">Food</h5>
+                        <h5 class="py-4 pe-5 border-end">Book-Of</h5>
+                        <h5 class="py-4 pe-5 border-end">G Series</h5>
+                        <h5 class="py-4 pe-5 border-end">Foods</h5>
+                    </div>
+        </div>
+
+    </div>
+
+
+
         <!-- Footer -->
         <footer class="bg-dark">
-
-            <div class="container">
+            <div class="container text-white py-5">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <h6 class="text-white
-                        ">About Us</h6>
+                        <h1>LOGO</h1>
                         <p class="text-white
-                        ">Medicom is one of the major supplier of medical and Laboratory Equipment throughout the kingdome.</p>
+                        ">Address: No.2A, Down Town Road No 7, 
+                        Phum Kork Chambak,Phnom Penh </p>
+                        <p>Office: (+855) 088 5654 093</p>
+                        <p>Support: info@medi.com</p>
                     </div>
-                </footer>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <p class="fs-4 fw-normal">My Account</p>
+                        <p class="fw-lighter">My Account</p>
+                        <p class="fw-lighter">Order History</p>
+                        <p class="fw-lighter">Shoping Cart</p>
+                        <p class="fw-lighter">Wishlist</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <p class="fs-4 fw-normal">My Account</p>
+                        <p class="fw-lighter">My Account</p>
+                        <p class="fw-lighter">Order History</p>
+                        <p class="fw-lighter">Shoping Cart</p>
+                        <p class="fw-lighter">Wishlist</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <p class="fs-4 fw-normal">My Account</p>
+                        <p class="fw-lighter">My Account</p>
+                        <p class="fw-lighter">Order History</p>
+                        <p class="fw-lighter">Shoping Cart</p>
+                        <p class="fw-lighter">Wishlist</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
 
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

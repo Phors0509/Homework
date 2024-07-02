@@ -1,7 +1,10 @@
 body{
     overflow-x: hidden;
 }
-
+button{
+    cursor: pointer;
+    background: none;
+}
 .active{
     background-color: green !important;
     border-color: #f3f4f6;
@@ -16,8 +19,8 @@ body{
 }   
 
 .swiper {
-    width: 99vw;
-    height: 70vh;
+    width: 100% !important;
+    height: 100% !important;
     margin: 0;
     overflow: hidden;
   }
@@ -42,7 +45,12 @@ body{
     margin-left: auto;
     margin-right: auto;
   }
-
+  .swiper-button-next{
+    right: 20% !important;
+  }
+  .swiper-button-prev{
+    left: 20% !important;
+  }
 
   .img-card{
     width: 100% !important;
@@ -66,7 +74,4 @@ body{
 .text-feature{
     padding-top: 6rem;
 }
-#img-card-row{
-    transform: scale(1.9);
 
-}
