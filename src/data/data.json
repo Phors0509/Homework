@@ -1,0 +1,128 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "category": "Health Case",
+      "price": 100,
+      "description": "Description 1",
+      "sale": 10,
+      "rating": 4,
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-2-1656420891.jpg?dim=256x256&q=75"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "category": "Health Case",
+      "price": 200,
+      "description": "Description 2",
+      "sale": 20,
+      "rating": 2,
+      "image": "https://www.vitahealth.com.my/wp-content/uploads/2024/02/Quercetinimmu-60s-front.png"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "category": "Health Case",
+      "price": 300,
+      "description": "Description 3",
+      "sale": 30,
+      "rating": 3,
+      "image": "https://www.vitahealth.com.my/wp-content/uploads/2024/02/Quercetinimmu-60s-front.png"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "category": "Health Case",
+      "price": 400,
+      "description": "Description 4",
+      "sale": 40,
+      "rating": 3,
+      "image": "https://www.vitahealth.com.my/wp-content/uploads/2024/02/Quercetinimmu-60s-front.png"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "category": "Health Case",
+      "price": 500,
+      "description": "Description 5",
+      "sale": 50,
+      "rating": 3,
+      "image": "https://www.vitahealth.com.my/wp-content/uploads/2024/02/Quercetinimmu-60s-front.png"
+    },
+    {
+      "id": 6,
+      "name": "Product 5",
+      "category": "Health Case",
+      "price": 500,
+      "description": "Description 5",
+      "sale": 50,
+      "rating": 3,
+      "image": "https://www.vitahealth.com.my/wp-content/uploads/2024/02/Quercetinimmu-60s-front.png"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Health Case",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-2-1656420891.jpg?dim=256x256&q=75"
+    },
+    {
+      "id": 2,
+      "name": "Condom",
+      "image": "https://tovpet.com/cdn/shop/files/Base-MS03-1Kx1K-removebg-preview_1024x1024.png?v=1684145225"
+    },
+    {
+      "id": 3,
+      "name": "Health Case",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-2-1656420891.jpg?dim=256x256&q=75"
+    },
+    {
+      "id": 4,
+      "name": "Health Case",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-2-1656420891.jpg?dim=256x256&q=75"
+    },
+    {
+      "id": 5,
+      "name": "Health Case",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-2-1656420891.jpg?dim=256x256&q=75"
+    },
+    {
+      "id": 6,
+      "name": "Health Case",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-2-1656420891.jpg?dim=256x256&q=75"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "product_id": 3,
+      "quantity": 3
+    },
+    {
+      "id": 4,
+      "product_id": 4,
+      "quantity": 4
+    },
+    {
+      "id": 5,
+      "product_id": 5,
+      "quantity": 5
+    },
+    {
+      "id": 6,
+      "product_id": 6,
+      "quantity": 6
+    }
+  ]
+}
